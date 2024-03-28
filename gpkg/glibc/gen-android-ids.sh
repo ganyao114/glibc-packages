@@ -63,7 +63,7 @@ echo '' >> $TOTAL_FILE
 echo '#define android_id_count (sizeof(android_ids) / sizeof(android_ids[0]))' >> $TOTAL_FILE
 echo '' >> $TOTAL_FILE
 echo '// default paths for the application' >> $TOTAL_FILE
-echo "#define APP_HOME_DIR \"${APP_BASE_DIR}/home\"" >> $TOTAL_FILE
-echo "#define APP_PREFIX_DIR \"${APP_BASE_DIR}/usr\"" >> $TOTAL_FILE
+echo "#define APP_HOME_DIR \"$/home\"" >> $TOTAL_FILE
+echo "#define APP_PREFIX_DIR \"/usr\"" >> $TOTAL_FILE
 echo '' >> $TOTAL_FILE
 echo '#endif // _ANDROID_IDS' >> $TOTAL_FILE

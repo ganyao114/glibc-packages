@@ -32,7 +32,6 @@ source=(https://ftp.gnu.org/gnu/libc/glibc-$pkgver.tar.xz
 	'clock_gettime.c.patch'
         'chmod.c.patch'
         'send.c.patch'
-        'setdirs.patch'
         'recv.c.patch'
         'accept.c.patch'
         'shmem-android.h'
